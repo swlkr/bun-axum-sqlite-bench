@@ -4,7 +4,7 @@ Run axum sqlite test:
 
 ```sh
 cargo build --release
-``
+```
 
 Run bun test
 
