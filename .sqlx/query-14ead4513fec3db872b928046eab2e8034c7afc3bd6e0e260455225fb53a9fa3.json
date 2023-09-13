@@ -1,0 +1,20 @@
+{
+  "db_name": "SQLite",
+  "query": "select msg from messages limit 100",
+  "describe": {
+    "columns": [
+      {
+        "name": "msg",
+        "ordinal": 0,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "14ead4513fec3db872b928046eab2e8034c7afc3bd6e0e260455225fb53a9fa3"
+}

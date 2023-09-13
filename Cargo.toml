@@ -1,0 +1,15 @@
+[package]
+name = "axum-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6.20"
+serde = "1.0.188"
+serde_json = "1.0.106"
+sqlx = { version = "0.7.1", features = ["sqlx-sqlite", "runtime-tokio", "sqlite"] }
+tokio = { version = "1.32.0", features = ["rt-multi-thread", "macros"] }
+
+[profile.release]
+opt-level = 3
+lto = true
