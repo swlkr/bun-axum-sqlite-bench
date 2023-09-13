@@ -1,0 +1,18 @@
+{
+  "name": "hi-elysia",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "drizzle-kit generate:sqlite",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.28.6",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.19.13"
+  },
+  "module": "src/index.js"
+}
